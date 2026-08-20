@@ -3,14 +3,14 @@
 A small dummy repository for learning Git basics, branching, merging, pull requests, and conflict resolution.
 
 ## Project
-This project represents a simple intern/workforce dashboard.
+This project represents a simple intern/workforce dashboard. Interns can track Git training tasks (clone, branch, pull request, conflict) assigned to the team.
 
 ## Files
 - `index.html` - Main page
 - `style.css` - Page styling
 - `app.js` - Application logic
 - `employees.json` - Sample employee data
-- `tasks.md` - Sample task list
+- `tasks.json` - Sample Git training tasks
 
 ## Training Exercises
 1. Clone the repository.

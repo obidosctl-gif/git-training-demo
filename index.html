@@ -11,12 +11,52 @@
         <h1>Git Training Dashboard</h1>
         <p id="welcome">Welcome to the Dashboard</p>
 
+        <section class="stats" aria-label="Training progress">
+            <article>
+                <strong id="stat-open">0</strong>
+                <span>Open tasks</span>
+            </article>
+            <article>
+                <strong id="stat-done">0</strong>
+                <span>Completed</span>
+            </article>
+            <article>
+                <strong id="stat-team">0</strong>
+                <span>Team members</span>
+            </article>
+        </section>
+
         <section>
             <h2>Team</h2>
             <ul id="employee-list"></ul>
         </section>
 
-        <button onclick="showMessage()">Test Git Change</button>
+        <section>
+            <div class="section-head">
+                <h2>Training tasks</h2>
+                <p id="progress-label">0 of 0 complete</p>
+            </div>
+            <div class="progress-track">
+                <div id="progress-bar" class="progress-bar"></div>
+            </div>
+
+            <div class="filters">
+                <button type="button" class="filter-btn active" data-status="all">All</button>
+                <button type="button" class="filter-btn" data-status="todo">To do</button>
+                <button type="button" class="filter-btn" data-status="in-progress">In progress</button>
+                <button type="button" class="filter-btn" data-status="done">Done</button>
+            </div>
+
+            <ul id="task-list"></ul>
+
+            <form id="add-task-form" class="add-task">
+                <input id="task-title" type="text" placeholder="Add a training task" required>
+                <select id="task-assignee" required></select>
+                <button type="submit">Assign</button>
+            </form>
+        </section>
+
+        <button type="button" id="test-git-btn">Test Git Change</button>
     </main>
 
     <script src="app.js"></script>

@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "title": "Clone the git-training-demo repository",
+        "assigneeId": 1,
+        "status": "done"
+    },
+    {
+        "id": 2,
+        "title": "Create a feature branch and push a small change",
+        "assigneeId": 1,
+        "status": "in-progress"
+    },
+    {
+        "id": 3,
+        "title": "Open a pull request for review",
+        "assigneeId": 2,
+        "status": "todo"
+    },
+    {
+        "id": 4,
+        "title": "Create two branches that edit the same welcome line",
+        "assigneeId": 1,
+        "status": "todo"
+    },
+    {
+        "id": 5,
+        "title": "Merge both branches and resolve the conflict",
+        "assigneeId": 3,
+        "status": "todo"
+    }
+]
